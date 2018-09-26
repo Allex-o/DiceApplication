@@ -1,0 +1,17 @@
+java -jar compiler.jar \
+--language_in=ECMASCRIPT5 \
+--js "./scope/Manifest.js" \
+--js "./dom/Element.js" \
+--js "./console/Message.js" \
+--js "./console/Notice.js" \
+--js "./console/Warning.js" \
+--js "./console/Error.js" \
+--js "./console/Critical.js" \
+--js "./console/Messages.js" \
+--js "./console/Header.js" \
+--js "./console/Console.js" \
+--js "./system/Config.js" \
+--js "./system/Validator.js" \
+--js "./system/Main.js" \
+--js "./scope/Alias.js" \
+--js_output_file "./build/src/js/VPJsOOP.js"
